@@ -7,4 +7,7 @@
     <string name="irABorrar">Ir a Borrar</string>
     <string name="irAModificar">Ir a modificar</string>
     <string name="consulta">(Aquí aparecerán los datos al consultar)</string>
+    <string name="id">id</string>
+    <string name="borrar">borrar</string>
+    <string name="modificar">Modificar</string>
 </resources>

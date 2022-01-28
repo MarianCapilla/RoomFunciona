@@ -9,6 +9,6 @@ data class MisAmigos(
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "identificador")
     val id:Int = 0, //le pongo un valor por defecto para no tener que paserle un id cuando quiera hacer un insert
-    val nombre:String,
-    val email:String
+    var nombre:String,
+    var email:String
 )

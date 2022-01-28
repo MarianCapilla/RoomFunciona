@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
                 var i = 0;
                 var guardado = "";
                 while(i < todos.size){
-                  guardado  +=   todos[i].nombre +" "+todos[i].email+" \n"
+                  guardado  +=  todos[i].id.toString()+": "+ todos[i].nombre +" "+todos[i].email+" \n"
                     i++
                 }
                 binding.tvConsulta.text = guardado
